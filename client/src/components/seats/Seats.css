@@ -1,0 +1,21 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.seatContainer{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    justify-items: center;
+    gap:10px;
+}
+.seat{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 80px;
+    border: 1px solid black;
+    color:white;
+}
+.seat p{
+    margin: 0;
+}
